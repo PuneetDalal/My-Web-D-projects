@@ -1,5 +1,5 @@
 .header {
-    padding: 8px 15px; 
+    padding: 6px 8px; 
     display: flex;
     justify-content: space-between;
     align-items:center ;
@@ -10,17 +10,22 @@ a {
     text-decoration: none;
     font-size: 14px;
     padding: 5px; 
-    margin: 0 5px;
-}
+    margin: 0 3px;
+}z
 a:hover {
-    color: #1f1f1f;
+    color: #746f6f;
     text-decoration: underline;
 }
-
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .header-right  {
     display: flex;
     align-items: center;
-    color: #1f1f1f !important;
+    gap : 8px;
+    color: #504f4f !important;
 }
 .img {
     width: 20px;
@@ -30,16 +35,16 @@ a:hover {
 }
 .Google_apps{
     display: grid;
-    grid-template-columns: repeat(3, 5px);
-    grid-gap: 3px;
+    grid-template-columns: repeat(3, 4px);
+    grid-gap: 2px;
     cursor: pointer;
     padding: 0px;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-left: 15px;
 }
 .Google_apps span {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   background-color: #5a5a5a; /* Google gray */
   border-radius: 50%;       /* make them circles */
   display: inline-block;
@@ -56,23 +61,29 @@ a:hover {
     margin-left: 15px;
     cursor: pointer;
 }
-.google{
+.google_images{
     display: flex;
     margin-top: 10px;
     justify-content: center;
     height: 90px;
 }
+.google{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    height: 89px;
+}
 .SearchBox {
     display: flex;
     flex-direction: column;  /* stack search bar and buttons */
     align-items: center;
-    margin-top: 35px;       /* space below header */
+    margin-top: 30px;       /* space below header */
 }
 
 .searchbar {
-    width: 500px;            /* adjust width */
+    width: 550px;            /* adjust width */
     max-width: 90%;          /* responsive */
-    height: 25px;
+    height: 28px;
     padding: 10px 15px;
     font-size: 16px;
     border: 1px solid #dcdcdc;
