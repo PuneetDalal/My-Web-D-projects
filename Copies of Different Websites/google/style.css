@@ -1,0 +1,106 @@
+.header {
+    padding: 8px 15px; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    font-family: arial,sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px; 
+    margin: 0 5px;
+}
+a:hover {
+    color: #1f1f1f;
+    text-decoration: underline;
+}
+
+.header-right  {
+    display: flex;
+    align-items: center;
+    color: #1f1f1f !important;
+}
+.img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Google_apps{
+    display: grid;
+    grid-template-columns: repeat(3, 5px);
+    grid-gap: 3px;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.Google_apps span {
+  width: 5px;
+  height: 5px;
+  background-color: #5a5a5a; /* Google gray */
+  border-radius: 50%;       /* make them circles */
+  display: inline-block;
+  
+}
+
+.Google_apps:hover span {
+  background-color: rgba(100, 100, 100, 0.89);
+}
+.account-circle{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.google{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    height: 90px;
+}
+.SearchBox {
+    display: flex;
+    flex-direction: column;  /* stack search bar and buttons */
+    align-items: center;
+    margin-top: 35px;       /* space below header */
+}
+
+.searchbar {
+    width: 500px;            /* adjust width */
+    max-width: 90%;          /* responsive */
+    height: 25px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s;
+}
+
+.searchbar:focus {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.search_buttons{
+    margin-top: 20px;
+}
+.search_buttons button{
+    background-color: #f8f7f7;
+    border-radius: 6px;
+    color: #5a5a5a;
+    border: 1px solid #f8f9fa;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 6px;
+    font-family: Arial, sans-serif;
+}
+.search_buttons button:hover {
+    background-color: #f1f3f4;
+    border: 1px solid #dadce0;
+    box-shadow: 1px rgb(80, 80, 80);
+}
